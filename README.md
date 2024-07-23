@@ -1,1 +1,1 @@
-# First application build using GraphQL
+# First application built using GraphQL
