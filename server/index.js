@@ -8,7 +8,7 @@ const { TODOS } = require("./todo");
 const { USERS } = require("./user");
 
 // ! means the particular field is mandatory
-const typeDefs = `
+const typeDefs = `#graphql
   type User {
     id: ID!
     name: String!
@@ -17,7 +17,6 @@ const typeDefs = `
     phone: String!
     website: String!
   }
-
   
   type Todo {
     id: ID!
